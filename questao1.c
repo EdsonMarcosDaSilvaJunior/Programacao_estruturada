@@ -4,4 +4,14 @@ void DesenhaLinha(int qtd) {
     }
     return 0;
 }
-int main (){}
+
+int Intervalo(int menor, int maior){
+    int i, soma = 0;
+    for(i = 0; menor < maior; i++){
+        soma += 1;
+    }
+
+    return soma;
+}
+
+int main (){ }
